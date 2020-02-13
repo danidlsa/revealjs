@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   src: url(fonts/Roboto-Bold.ttf) format('truetype');
 }
@@ -65,7 +65,7 @@ body {
   color: #eee8d5;
   font-family: "Roboto", 
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1;
   letter-spacing: normal;
   text-shadow: none;
   word-wrap: break-word; }
