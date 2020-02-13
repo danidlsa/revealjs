@@ -5,31 +5,23 @@
 @import url(../../lib/font/league-gothic/league-gothic.css);
 
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Lato.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url(fonts/LatoBold.ttf) format('truetype');
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  src: url(fonts/LatoItalic.ttf) format('truetype');
+  src: url(fonts/Roboto-Italic.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: url(fonts/LatoBoldItalic.ttf) format('truetype');
-}
-
-
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -45,7 +37,7 @@ body {
   background-color: #002b36; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #93a1a1; }
@@ -71,11 +63,10 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eee8d5;
-  font-family: "League Gothic", Impact, sans-serif;
-  font-weight: normal;
+  font-family: "Roboto", 
+  font-weight: bold;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
