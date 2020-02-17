@@ -246,7 +246,7 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(0, 43, 54, 0.12);  
+  background: rgba(255, 255, 255, 0.12);  
   border: 0;
   box-shadow: none;}
 
@@ -260,7 +260,7 @@ body {
   transition: all .15s linear; }
 
 .reveal a:hover img {
-  background: rgba(0, 43, 54, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border: 0;
   box-shadow: none;}
 
