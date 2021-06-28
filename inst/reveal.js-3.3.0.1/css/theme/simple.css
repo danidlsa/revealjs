@@ -6,43 +6,25 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
+@font-face {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 700;
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/Roboto-Italic.ttf) format('truetype');
+}
 
-@font-face {
-  font-family: 'News Cycle';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/NewsCycle.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'News Cycle';
-  font-style: normal;
-  font-weight: 700;
-  src: url(fonts/NewsCycleBold.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Lato.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: url(fonts/LatoBold.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: url(fonts/LatoItalic.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: url(fonts/LatoBoldItalic.ttf) format('truetype');
-}
 
 /*********************************************
  * GLOBAL STYLES
